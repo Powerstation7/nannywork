@@ -1,0 +1,36 @@
+.photo{
+    background-image: url(images/nanny\ un4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: static;
+    height: 50vh;
+}
+.staff{
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 730px;
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+    padding: 1.25rem;
+
+}
+.image img{
+    border-radius: 30px;
+    position: relative;
+    left: 15%;
+    bottom: 0.625rem;
+
+    
+}
+#button{
+    position: relative;
+    left: 30%;
+    top: 0.625rem;
+}
+.nth:nth-of-type(even){
+    background-color: mistyrose;
+}
+main{
+    padding: 1.25rem 0;
+}

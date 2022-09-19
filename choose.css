@@ -1,0 +1,47 @@
+.choose{
+    /* background-image: linear-gradient(rgba(10, 0,15,0.8), rgba(0, 0, 0, 0.8)), url(images/nannu\ uns.jpg);  */
+}
+.choose-div{
+    height: 20rem;
+    width: 16.25rem;
+    border: 2px solid black;
+    border: hidden;
+    border-radius: 8px;
+    /* background-color: rgba(57,0,0,0.8); */
+    background-color: #003B65;
+    color: white;
+    font-size: 1.125rem;
+    box-shadow: 2px 4px 6px gray;
+   
+    padding: 0px 0.9375rem 0.9375rem 0.9375rem;
+
+}
+.choose-div:hover{
+    background-color: black;
+}
+.choose-div b{
+    text-align: end;
+    font-size: 3.125rem;
+}
+.p1{
+    font-size: 1.125rem;
+}
+.p1 span{
+    color: #dc3545;
+}
+
+.chosen{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.p1{
+    padding: 2.1875rem;
+    text-align: center;
+}
+.choose-div span{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.4375rem;
+    color: yellow;
+}

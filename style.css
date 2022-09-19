@@ -1,0 +1,543 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nanny-nav{
+    background-color: bisque;
+    padding: 0.9375rem;
+    
+   
+    
+
+}
+.power{
+    background-color: #003B65;
+    color: white;
+}
+.power a{
+    color: white;
+}
+#home{
+    color: white;
+}
+#oya{
+    background-color: whitesmoke;
+}
+.nanny-nav h2{
+    text-align: center;
+}
+#a-shift{
+    position: relative;
+
+    left: 34rem;
+}
+
+.power a:hover{color: #ffffff;
+    border: 2px solid wheat; 
+    border-radius: 8px;
+}
+
+.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 199;
+}
+.nav-a{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9375rem;
+    background-color: mediumblue;
+  
+    
+}
+.nav-a a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4375rem;
+}
+#anc::first-letter{
+    font-size: 2.125rem;
+    text-transform: uppercase;
+}
+@keyframes animate {
+    0%, 100% {
+        background-image: url(images/nanny6.jpg);
+    }
+    25% {
+        background-image: url(images/nanny5.jpg);
+    }
+    50%{
+        background-image: url(images/cleaning.jpg);
+    }
+    75%{
+        background-image: url(images/cleaners.jpg);
+    }
+
+}
+
+.header{
+    /* background-image: linear-gradient(rgba(10, 0,15,0.8), rgba(0, 0, 0, 0.8)), url(images/nanny6.jpg); */
+    animation: animate 20s ease-in-out infinite;
+    background-position: center;
+    background-size: cover;
+    position: static;
+    height: 37.5rem;
+    
+   
+}
+.color{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+.header h1,h3{
+    text-align: center;
+    color: bisque;
+    text-transform: uppercase;
+    
+}
+
+
+.pic-write{
+    position: relative;
+    top:11.875rem;
+}
+.header h3{
+    font-size: 1.25rem;
+}
+.header h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+}
+.header button{
+    position: relative;
+    left: 42%;
+    top: 2rem;
+}
+
+p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.875rem;
+}
+#services h2{
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.pic img{
+    border-radius: 8px;
+}
+.why img{
+    border-radius: 8px;
+}
+.display-6{
+  
+    padding:6.0625rem;
+    
+    text-align: center;
+}
+#h2{
+    font-size: 1.5625rem;
+    position: relative;
+   
+bottom: 5rem;}
+.ppp{
+    margin-top: 3.75rem;
+    font-weight: bolder;
+}
+.things{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    bottom: 2.5rem;
+}
+.pic{
+    position: relative;
+    bottom: 4.375rem;
+}
+#services{
+    background-color: #cfe2ff;
+}
+.things h4{
+    text-transform: uppercase;
+    text-align: center;
+}
+.btnn{
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    padding: 1.0625rem;
+   position: relative;
+   left: 45.5%;
+   bottom: 1.25rem;
+   width: 10rem;
+}
+.need{
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    width: 10rem;
+    color: white;
+    position: relative;
+    left: 38%;
+    box-shadow: 4px 4px 6px gray;
+}
+#space{margin: 0.9375rem;}
+.why{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 1.5625rem;
+    background-color: #ffffff;
+}
+.wcu{
+    font-size: 2.375rem;
+    color: red;
+}
+.wwa,#wwa{
+    color: red;
+}
+
+.us h4{
+    text-align: center;
+    
+}
+.us{
+    /* background-color: ; */
+}
+.us p{
+    font-weight: bolder;
+}
+.need:hover{
+    background-color: black;
+    box-shadow: 4px 4px 6px white;
+}
+.care{
+    font-size: 1.375rem;
+}
+
+.dan{
+    padding: 15px;
+    padding-right: 20px;
+   
+}
+.dan p{
+    font-weight: bolder
+    ;
+}
+.dan{
+    border: 2px solid #003B65;
+    border-radius: 8px;
+    box-shadow: 2px 4px 5px gray;
+    border: hidden;
+    margin-right: 0.625rem;
+}
+#gap{border: 2px solid #003B65;
+    
+    border-radius: 8px;
+    box-shadow: 2px 4px 5px gray;
+    margin-right:0.625rem;
+    margin: 0.625rem;
+    margin-top: 2.5rem;
+    
+}
+.dan ul{
+    font-size:0.9375rem;
+}
+.we-do{
+    padding-top:1.5625rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: mintcream;
+}
+.we-do h4{
+    text-align: center;
+}
+.we-do p{
+    font-weight: bolder;
+}
+#quote{
+    font-size:1.125rem;
+    text-transform: lowercase;
+}
+
+.quote{
+    
+        height: 21.625rem;
+        width: 25.625rem;
+        border-radius: 8px;
+        box-shadow: 4px 4px 6px gray;
+        border: none;
+        padding: 1.875rem;
+
+
+}
+#talk{
+    color: red;
+    position: relative;
+    font-size: 1.625rem;
+    top: 2.25rem;
+   /* bottom: 0.105rem; */
+   padding: 3.25rem;
+
+}
+.testimony{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.confess{
+    padding-top: 1.25rem;
+
+}
+.confess p{
+    font-weight: bolder;
+}
+.confess ul{
+    text-align: center;
+    font-size: 1.125rem
+}
+.quote{
+    background-color: #2c3e50;
+}
+.confess{
+    background-color: #2c3e50;
+    color: white;
+    padding: 1.25rem;
+}
+.ancor{
+    text-align: center;
+}
+.ancor,.anc{margin: 0.9375rem;}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.phone{
+    border-left: 2px solid black;
+}
+.contact div{
+    padding: 0.9375rem;
+
+}
+.contact{margin-top: 1.5625rem;}
+.contact-section p{
+    font-weight: bolder;
+    margin-top: 1.25rem;
+}
+.bi-envelope-fill{margin-top: 15px; }
+.contact-section ul{
+    text-align: center;
+    font-size: 1.125rem;
+
+}
+.div-ancor a{
+    background-color: red;
+    padding: 1.125rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.625rem;
+}
+.div-ancor{
+    display: flex;
+    justify-content: center;
+    
+}
+.ancor{
+    position: relative;
+    right: 0.625rem;
+    padding: 1.4375rem;
+}
+.contact-section{
+    padding: 0.9375rem;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin:0.625rem;
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+    position: relative;
+   right:5.4375rem;
+   
+}
+.social a{
+    margin: 0 0.625rem;
+}
+footer{
+    padding: 1.4375rem;
+    background-color: #2c3e50;
+    /* background-color: ; */
+}
+.coded{
+    position: relative;
+    right: 24%;
+}
+.facebook img{
+    border-radius: 45px;
+}
+.insta img{
+    border-radius: 45px;
+}
+.twitter a{
+    height: 3.125rem;
+    width: 3.125rem;
+}
+.fut, .coded{
+    color: white;
+}
+#services{
+    padding:1.25rem;
+}
+.need{
+    text-decoration: none;
+    text-transform: uppercase;
+   position: relative;
+   top: 0.625rem;
+}
+.book{
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 1.25rem;
+    width: 12.5rem;
+    color: white;
+    position: relative;
+    left: 48%;
+    bottom: 1.25rem;
+    box-shadow: 4px 4px 6px gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#join{
+    position: relative;
+    left: 46%;
+    top: 2.5rem;
+}
+#our{
+    padding: 0.125rem;
+    font-size: 1rem;
+}
+#login-1{
+    
+}
+#login{
+    width: 50rem;
+    padding: 0.625rem;
+    border: 1px solid black;
+    box-shadow: 2px 4px 6px #2c3e50;
+    border: hidden;
+    position: relative;
+    left: 20%;
+  
+    
+}
+.login{
+    padding:1.25rem 0;
+}
+#login-7{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.login-h2 h2{
+    text-align: center;
+}
+.log-btn{
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    padding: 8px;
+    color: white;
+}
+.que{
+    color: red;
+    font-size: 2.5rem;
+}
+#sign-in{
+    width: 25rem;
+}
+.btn2232{
+    position: relative;
+
+}
+#join{ position: relative;
+    left: 42%;
+    top: 2rem;}
+    #login-11{ position: relative;
+    left: 20%;}
+    #must-be{text-align: justify;}
+    .terms{ font-size:0.75rem;
+        font: italic;
+    }
+   #goo{border: 2px solid red;}
+
+
+
+
+
+@media(max-width: 48rem){
+    .header{ width: 100%;}
+    #login-11{left: 2%;}
+    #a-shift{
+        position: relative;
+    
+        left: 20rem;}
+
+    .pic img{ width: 100%; } 
+    #pic2 img{margin-top: 2.3125rem;}
+    #join{left: 38%;}
+    .things{flex-direction: column;}
+
+    .wcu{text-align: center;}
+    .us{width: 100%;}
+    .chosen{flex-direction: column;}
+    .chosen-btn{margin-left: auto; margin-right: auto;}
+    .btn2232{right: 12%;}
+    .choose-div{margin: 0.625rem;}
+    .choose-div{margin-left: auto; margin-right: auto;}
+    .confess{width: 100%;}
+    .testimony{flex-direction: column;}
+    .quote{margin: 0.625rem;}
+    #sign-in{width: 80%;}
+    .quote{width: 95%;}
+    /* .quote{margin-left: auto; margin-right: auto;} */
+    /* .quote{padding: 0.3215rem} */
+    #quote{width: 80%;}
+    .social { left: 6%;}
+    /* .social {margin-left: auto; } */
+
+    .contact-section{width: 100%;}
+    .last{width: 100%; flex-direction: column;}
+    .footer{width: 100%;}
+    .coded{font-size: xx-small;}
+    .coded h5{font-size: x-small;}
+    #gap{flex-direction: column;}
+    .dan{margin-bottom: 0.625rem;;}
+    .need{left: 22%;}
+    .book{left: 40%;}
+    .last{flex-direction: column; width: 100%;}
+    .last{margin-left: auto; margin-right: auto;}
+
+    /* .coded{left: 24%; } */
+    .coded{margin-left: auto; }
+}
+
+@media(max-width: 48rem){
+    .login,#login{width: 80%;}
+
+
+
+}
+
